@@ -23,7 +23,7 @@ public class Main {
         boolean temSequenciaComum = !senha.matches(".*(?i)123456.*|.*(?i)abcdef.*");
         boolean temPalavraComum = !senha.equalsIgnoreCase("password") && !senha.equalsIgnoreCase("123456") && !senha.equalsIgnoreCase("qwerty");
 
-        // Verifique o comprimento mínimo e critérios de validação
+        //Verifique o comprimento mínimo e critérios de validação
 
         if (senha.length() < comprimentoMinimo){
             return "Sua senha e muito curta. Recomenda-se no minimo 8 caracteres.";
